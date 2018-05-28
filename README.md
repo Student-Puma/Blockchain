@@ -58,7 +58,7 @@ Anyway, if you want to help me in a more direct way, you can leave me a tip by c
     <a href="https://www.paypal.me/cosasdepuma/"><img src="https://img.shields.io/badge/Donate-PayPal-blue.svg?style=for-the-badge" alt="PayPal Donation"></img></a>
 </p>
 
-I promise to let you ride my dinosaur when I bought it thanks to your tips <3
+I promise to let you ride my dinosaur when I bought it thanks to your tips 💚
 
 ---
 Please contact with [Kike Puma](https://linkedin.com/in/kikepuma) if you need more information.
