@@ -54,7 +54,7 @@ class Block {
 class Blockchain {
     constructor() {
         this.chain = [];
-        this.difficulty = 3;
+        this.difficulty = 2;
         this.createGenesis();
 
         this.miningReward = 100;
@@ -62,23 +62,17 @@ class Blockchain {
     }
 
     createGenesis() {
-        this.chain.push(new Block('Rabbit Coin: Genesis'));
+        this.chain.push(new Block());
     }
 
     last() {
         return this.chain[this.chain.length - 1];
     }
 
-    // ---> Old add block method <---
-    // add(block) {
-    //     block.index = this.chain.length;
-    //     block.previousHash = this.last().hash;
-    //     block.mine(this.difficulty);
-    //     this.chain.push(block);
-    // }
-
     minePendingTransactions(miningRewardAddress) {
         let block = new Block(this.pendingTransactions);
+        block.index = this.chain.length;
+        block.previousHash = this.last().hash;
         block.mine(this.difficulty);
         this.chain.push(block);
 
