@@ -14,8 +14,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "nnn"
+    "url": "https://github.com/PumaLearning/Blockchain"
   },
-  "author": "CosasDePuma",
+  "homepage": "https://github.com/PumaLearning/Blockchain#README",
+  "bugs": {
+    "url": "https://github.com/PumaLearning/Blockchain/issues",
+    "email": "kikefontanlorenzo@gmail.com"
+  },
+  "author": "CosasDePuma <kikefontanlorenzo@gmail.com> (https://github.com/cosasdepuma/)",
   "license": "MIT"
 }
